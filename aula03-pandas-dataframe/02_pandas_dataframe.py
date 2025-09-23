@@ -1,5 +1,7 @@
 import pandas as pd
 
 df = pd.read_csv("./arquivos/alunos.csv")
-# print(df)
-print(df.head(2))
+
+# print(df["Nota"] > 7)
+# aprovados = df[df["Nota"] > 7]
+# print(aprovados)
